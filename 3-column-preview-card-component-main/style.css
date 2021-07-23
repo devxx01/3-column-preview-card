@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500&family=Lexend+Deca&display=swap');
+
+* {
+    background-color: hsl(0, 0%, 95%)
+}
+
+@media (max-width: 300px) {
+    #flex-text {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        background-position: center;
+        place-self: center;
+        margin-top: 10%;
+        }
+    .sedan {
+        border-radius: 0.6vw 0.6vw 0px 0px;
+        width: 13.5%;
+        height: 20%;
+    }
+    .luxury {
+        border-radius: 0px 0px 0.6vw 0.6vw;
+        width: 13.5%;
+        height: 20%;
+    }
+    .suv {
+        width: 13.5%;
+        height: 20%;
+    }
+}
+
+@media (min-width: 1400px) {
+    #flex-text {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        background-position: center;
+        place-self: center;
+        margin-top: 10%;
+        }
+    .sedan {
+        border-radius: 0.6vw 0px 0px 0.6vw;
+        width: 13.5%;
+    }
+    .luxury {
+        border-radius: 0px 0.6vw 0.6vw 0px;
+        width: 13.5%;
+    }
+    .suv {
+        width: 13.5%;
+    }
+}
+
+.sedan {
+    flex-basis: 100%;
+    background-color: hsl(31, 77%, 52%);
+    padding: 75px 50px 125px 40px;
+    justify-content: center;
+    background-position: center;
+    justify-content: center;
+}
+.sedan img {
+    background-color: transparent;
+    position: relative;
+    top: -15px;
+}
+.sedan h1 {
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(31, 77%, 52%);
+}
+.sedan #sedan-text {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+    background-color: hsl(31, 77%, 52%);
+    font-size: 15px;
+    line-height: 1.6;
+}
+.sedan a {
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    border: none;
+    border-radius: 30px;
+    padding: 14px 30px 14px;
+    position: relative;
+    top: 75px;
+    text-decoration: none;
+}
+.sedan a:hover {
+    background-color: hsla(0, 0%, 100%, 0.75);
+}
+
+
+.suv {
+    flex-basis: 100%;
+    background-color: hsl(184, 100%, 22%);
+    padding: 75px 50px 125px 40px;
+    background-position: center;
+    justify-content: center;
+}
+.suv img {
+    background-color: transparent;
+    position: relative;
+    top: -15px;
+}
+.suv h1 {
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(184, 100%, 22%);
+}
+.suv #suv-text {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+    background-color: hsl(184, 100%, 22%);
+    font-size: 15px;
+    line-height: 1.6;
+}
+.suv a {
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    border: none;
+    border-radius: 30px;
+    padding: 14px 30px 14px;
+    position: relative;
+    top: 75px;
+    text-decoration: none;
+}
+.suv a:hover {
+    background-color: hsla(0, 0%, 100%, 0.75);
+}
+
+.luxury {
+    flex-basis: 100%;
+    background-color: hsl(179, 100%, 13%);
+    padding: 75px 50px 125px 40px;
+    background-position: center;
+    justify-content: center;
+}
+.luxury img {
+    background-color: transparent;
+    position: relative;
+    top: -15px;
+}
+.luxury h1 {
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(179, 100%, 13%);
+}
+.luxury #luxury-text {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+    background-color: hsl(179, 100%, 13%);
+    font-size: 15px;
+    line-height: 1.6;
+}
+.luxury a {
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    border: none;
+    border-radius: 30px;
+    padding: 14px 30px 14px;
+    position: relative;
+    top: 75px;
+    text-decoration: none;
+}
+.luxury a:hover {
+    background-color: hsla(0, 0%, 100%, 0.75);
+}
