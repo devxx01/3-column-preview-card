@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend mentor solution submission](https://www.frontendmentor.io/solutions/responsive-page-using-css-flexbox-FfodezBQI)
+- Live Site URL: [Github pages - 3 column preview card](https://devxx01.github.io/3-column-preview-card/)
 
 ## My process
 
